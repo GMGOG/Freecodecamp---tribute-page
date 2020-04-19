@@ -10,23 +10,24 @@ body {
 }
 
 #title {
-    margin-top: 4%;
+    margin-top: 6%;
     font-size: 2vw;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
 #image {
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 42.5%;
     max-width: 15%;
     height: auto;
-    border: 4px whitesmoke solid;
+    border: 2px beige solid;
     border-radius: 100%;
 }
 
 div img:hover {
     opacity: 20%;
+    transform: scale(1.2);
 }
 
 div img:hover+#img-caption {
@@ -36,11 +37,11 @@ div img:hover+#img-caption {
 #img-caption {
     opacity: 0%;
     color: grey;
-    margin-left: 44.2%;
-    font-size: 1.7vw;
+    margin-left: 43%;
+    font-size: 2vw;
     font-weight: 200;
     font-family: 'Comic Neue', cursive;
-    margin-top: -6%;
+    margin-top: -8%;
 }
 
 #tribute-info {
