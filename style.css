@@ -21,6 +21,7 @@ h2 {
 }
 
 #image {
+    display: block;
     margin-top: 4%;
     margin-left: 42.5%;
     max-width: 15%;
@@ -44,7 +45,6 @@ div img:hover+#img-caption {
     margin-left: 43%;
     font-size: 2vw;
     font-weight: 200;
-    font-family: 'Comic Neue', cursive;
     margin-top: -8%;
 }
 
