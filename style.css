@@ -42,3 +42,43 @@ div img:hover+#img-caption {
     font-family: 'Comic Neue', cursive;
     margin-top: -6%;
 }
+
+#tribute-info {
+    color: darkslategrey;
+    max-width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 150%;
+    letter-spacing: 50%;
+    line-height: 130%;
+}
+
+li {
+    display: inline;
+    font-weight: 700;
+}
+
+span {
+    padding: 3px;
+    line-height: 140%;
+    text-decoration: bold;
+    display: block;
+    border: 2px grey solid;
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+}
+
+.goal {
+    padding-right: 2%;
+    text-align: right;
+    display: block;
+}
+
+a {
+    font-size: 110%;
+    color: rgb(34, 32, 32);
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+}
