@@ -87,3 +87,17 @@ a {
     text-align: center;
     margin-bottom: 2%;
 }
+
+@media (max-width: 768px) {
+    #image {
+        margin-top: 4%;
+        margin-left: 25%;
+        max-width: 50%;
+        height: auto;
+        border: 2px beige solid;
+        border-radius: 100%;
+    }
+    #main {
+        font-size: 0.7rem;
+    }
+}
