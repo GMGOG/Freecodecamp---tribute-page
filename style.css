@@ -11,7 +11,7 @@ body {
 
 #title {
     margin-top: 6%;
-    font-size: 2vw;
+    font-size: 1.7rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -88,16 +88,23 @@ a {
     margin-bottom: 2%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #image {
         margin-top: 4%;
-        margin-left: 25%;
-        max-width: 50%;
+        margin-left: 30%;
+        max-width: 40%;
         height: auto;
         border: 2px beige solid;
         border-radius: 100%;
     }
     #main {
         font-size: 0.5rem;
+    }
+    div img:hover {
+        opacity: 100%;
+        transform: scale(1);
+    }
+    #title {
+        font-size: 1rem;
     }
 }
