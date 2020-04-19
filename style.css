@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(168, 166, 157);
+}
+
+#main {
+    background-color: rgb(238, 224, 207);
+    position: relative;
+    border: grey solid;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#title {
+    margin-top: 4%;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#image {
+    margin-top: 5%;
+    margin-left: 42.5%;
+    max-width: 15%;
+    height: auto;
+    border: 4px whitesmoke solid;
+    border-radius: 100%;
+}
+
+div img:hover {
+    opacity: 20%;
+}
+
+div img:hover+#img-caption {
+    opacity: 800%;
+}
+
+#img-caption {
+    opacity: 0%;
+    color: grey;
+    margin-left: 44.2%;
+    font-size: 1.7vw;
+    font-weight: 200;
+    font-family: 'Comic Neue', cursive;
+    margin-top: -6%;
+}
